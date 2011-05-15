@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<ImageView 
+   android:id="@+id/headerimage"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center"
+   android:src="@+drawable/aggrogamerheader" 
+   />
+   <View android:id="@+id/dividegradient" android:background="@drawable/black_white_gradient"
+			android:layout_width="fill_parent" android:layout_height="1dp"
+			android:paddingTop="3px" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TextView
+android:id="@+id/title"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="16px"
+android:ellipsize="marquee"
+android:paddingTop="5px"
+android:paddingBottom="2px"
+android:textColor="#FFFFFF"
+/>
+
+<TextView
+android:id="@+id/category"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="12px"
+android:ellipsize="marquee"
+android:paddingBottom="5px"
+/>
+
+<TextView
+android:id="@+id/link"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="12px"
+android:ellipsize="marquee"
+android:paddingBottom="5px"
+android:textColor="#FF0000"
+android:text="Wall of Text? Click to Read it formatted better"
+/>
+
+<TextView
+android:id="@+id/description"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#FFFFFF"
+android:text=""
+/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

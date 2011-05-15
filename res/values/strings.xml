@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">AggroGamer - Game News</string>
+    <string name="app_name">AggroGamer</string>
+    <string name="main_no_items"></string>
+    <string name="widget_name">AggroGamer Lite</string>
+    <string name="widget_loading">Loading Latest News Article</string>
+    <string name="widget_error">Not found :(</string>
+</resources>

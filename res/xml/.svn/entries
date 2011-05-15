@@ -1,0 +1,40 @@
+8
+
+dir
+2
+http://wiktionary-android.googlecode.com/svn/trunk/SimpleWiktionary/res/xml
+http://wiktionary-android.googlecode.com/svn
+
+
+
+2009-04-17T21:46:53.448367Z
+2
+jsharkey@android.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a690e998-2b95-11de-acd2-81e04a9d018a
+
+widget_word.xml
+file
+
+
+
+
+2009-05-30T07:52:59.000000Z
+252b1bedcd057409acd44f9741dbe7db
+2009-04-17T21:46:53.448367Z
+2
+jsharkey@android.com
+
